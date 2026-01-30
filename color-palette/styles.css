@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#home{
+    width: 50%;
+    height: 25%;
+    background-color: white;
+    margin: auto;
+    margin-top: 20%;
+    padding: 34px;
+    border-radius: 10px;
+
+}
+h1{
+    font-size:x-large;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black ;
+}
+#generate{
+    color: white;
+    background: #865ffa;
+    background: linear-gradient(90deg, rgba(134, 95, 250, 1) 0%, rgba(170, 105, 255, 1) 47%, rgba(81, 0, 255, 1) 100%);
+    border-radius: 17px;
+    font-size: x-small;
+    padding: 8px 8px;
+    text-align: center;
+    width: fit-content;
+    margin-top: 4px;
+    border: none;
+
+}
+
+#color-pick{
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 1px;
+    margin-top: 10px;
+    color: black;
+    font-size: x-small;
+    
+}
+/* #color-pick p{
+    align-self: flex-end;
+} */
+#one, #two,#three,#four, #five{
+    background-color: red;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    border-radius: 4px;
+}
+#two{
+    background-color: yellow;
+}
+#three{
+    background-color: blue;
+}
+#four{
+    background-color: green;
+}
+#five{
+    background-color: black;
+}
+
